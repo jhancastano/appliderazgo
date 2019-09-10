@@ -2,6 +2,16 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@addon/*": ["src/app/addon/*"],
+      "@app/*": ["src/app/*"],
+      "@classes/*": ["src/app/classes/*"],
+      "@core/*": ["src/app/core/*"],
+      "@providers/*": ["src/app/providers/*"],
+      "@components/*": ["src/app/components/*"],
+      "@directives/*": ["src/app/directives/*"],
+      "@pipes/*": ["src/app/pipes/*"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
